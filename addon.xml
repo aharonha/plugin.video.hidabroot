@@ -1,1 +1,22 @@
-ECHO is on.
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hidabroot" name="הדברות" version="0.0.1" provider-name="AharonH">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">View videos from Hidabroot</summary>
+    <summary lang="he">צפה בסרטונים והרצאות מאתר הדברות</summary>
+    <description lang="en">Hidabroot.org</description>
+    <disclaimer lang="en"></disclaimer>
+    <language>he</language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website>http://www.hidabroot.org</website>
+    <email>aharonha+hidabroot@gmail.com</email>
+    <source>https://github.com/aharonha/plugin.video.hidabroot</source>
+  </extension>
+</addon
